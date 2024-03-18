@@ -1,0 +1,17 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    font-size: 20px;
+    
+}
+
+.h1java001 {
+    color: #FFFF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.spanjava001 {
+    color: blue;
+    font-size: 16px;
+}
