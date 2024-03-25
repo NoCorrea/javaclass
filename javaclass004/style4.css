@@ -3,8 +3,3 @@ body {
     background-color: aqua;
 }
 /* Shift+Alt+A inclui comentário em html, css e js  */
-/* window.alert("irei descobrir a sua idade")
-            var id1 = Number.parseInt(window.prompt("ano atual"))
-            var id2 = Number.parseInt(window.prompt("data de nascimento"))
-            var soma = id1 - id2
-             window.alert("sua idade é,"+  soma +"!") */

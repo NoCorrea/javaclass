@@ -6,9 +6,15 @@ e caso deseje que seja real no lugar do Number.parsseInte, digite: Number.parseF
 /*a conversão de número para string devo utilizar o comando: string(n) ou n.string(), sendo n o valor da variável que desejo transformar de nº para string.*/ 
 var s = n1+n2
 
-alert  ("A soma dos números é " + s + '!!!' )/*nese caso o resultado 's' é uma string*/ 
-alert  ("A soma dos números é " + string(s) + '!' ) 
-alert ("A soma dos números "+ string(n1) +' e '+ string(n2) + ' é ' + string(s)+'.')
+alert  ("A soma dos números é " + String(s) + '!!!' )
+/* a colocação do 'string' no comando acima converte obrigatoriamente o resultando numa string. */
+alert  ("A soma dos números é " + s + "!" ) 
+alert ("A soma dos números "+ n1 +' e '+ n2 + ' é ' + s+'.')
+alert (`a soma de ${n1} e ${n2} é ${s}!!`)
+
+
+
+
 
 
 
