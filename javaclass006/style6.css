@@ -1,0 +1,10 @@
+div#area {
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
