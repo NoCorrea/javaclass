@@ -10,5 +10,14 @@
     <div id="area">Interaja</div>
     <script src="index.006.js"></script>
 </body>
-<!--onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()" esse comando pode ser usado dentro da div area pra ter o mesmo efeito feito no javascript-->
+<!--onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()" esse comando pode ser usado dentro do HTML na div 'area' pra ter o mesmo efeito feito no javascript-->
+<!--ficaria assim dentro do HTML: 
+<div id="area" onclick="clicar()"> Interaja </div>
+<script>
+    function clicar() {
+        var a = document.gerElementById('area')
+        a.innnerText ='(clicou)'
+    }
+</script>
+-->
 </html>
