@@ -3,9 +3,10 @@ a.addEventListener('click',clicar)
 a.addEventListener('mouseenter',entrar)
 a.addEventListener('mouseout',sair)
 function clicar() {
-a.innerText = 'clicou'
+a.textContent = 'clicou'
 a.style.background ='red'
 }
+/*pode ser usado o 'textContent' acima, ou o 'innerText' abaixo para mudar o texto da div*/
 function entrar() {
     a.innerText = 'entrou'  
 }
