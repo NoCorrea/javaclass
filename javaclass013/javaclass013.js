@@ -28,12 +28,16 @@ default: $dayweek.innerHTML='dia inválido'
 }*/
 
 document.addEventListener('DOMContentLoaded', function() {
-   const diasSemana = ['domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado'];
+   const diasSemana = ['domingo.', 'segunda.', 'terça.', 'quarta.', 'quinta.', 'sexta.', 'sábado.'];
    const diaSemanaElement = document.querySelector('.informday');
    const dataAtual = new Date();
    const diaSemana = dataAtual.getDay();
+   let $atividadeDiaria = ['ver filmes e séries.','gifazer treino de costas.','fazer treino de pernas.','fazer treino de peito.','fazer treino de biceps e triceps.','fazer treino aeróbico.','dormir até tarde.']
+   const $atividade = document.querySelector('.activity')
     
     if (diaSemana >= 0 && diaSemana <= 6) {
         diaSemanaElement.innerHTML = diasSemana[diaSemana];
+        $atividade.innerHTML = $atividadeDiaria[diaSemana];
+
     }
 });
